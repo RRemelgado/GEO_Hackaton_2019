@@ -39,19 +39,72 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
 
 </br>
 
-| Variable             | Weight | Importance |
-|----------------------|--------|------------|
-| Soil Depth           | 1      | max        |
-| Slope                | 1      | min        |
-| Soil Porosity        | 1      | min        |
-| Growndwater recharge | 1      | max        |
-| Pop. Density         | 0.5    | min        |
-| Travel time to cities| 0.5    | max        |
-| Water (seasonal)     | 0.2    | max        |
-| Water (permanent)    | 0.2    | min        |
-| Landsat NDVI         | 0.2    | max        |
-| river distance       | 0.1    | max        |
-| lake distance        | 0.1    | max        |
+<p align="center">
+  
+<table>
+  <tr>
+    <th>Variable</th>
+    <th>Weight</th>
+    <th>Importance</th>
+  </tr>
+  <tr>
+    <td>Soil Depth</td>
+    <td>1</td>
+    <td>max</td>
+  </tr>
+  <tr>
+    <td>Slope</td>
+    <td>1</td>
+    <td>min</td>
+  </tr>
+  <tr>
+    <td>Soil Porosity</td>
+    <td>1</td>
+    <td>min</td>
+  </tr>
+  <tr>
+    <td>Growndwater recharge</td>
+    <td>1</td>
+    <td>max</td>
+  </tr>
+  <tr>
+    <td>Pop. Density</td>
+    <td>0.5</td>
+    <td>min</td>
+  </tr>
+  <tr>
+    <td>Distance to cities</td>
+    <td>0.5</td>
+    <td>max</td>
+  </tr>
+  <tr>
+    <td>Water (seasonal)</td>
+    <td>0.2</td>
+    <td>max</td>
+  </tr>
+  <tr>
+    <td>Water (permanent)</td>
+    <td>0.2</td>
+    <td>min</td>
+  </tr>
+  <tr>
+    <td>NDVI</td>
+    <td>0.2</td>
+    <td>max</td>
+  </tr>
+  <tr>
+    <td>river</td>
+    <td>0.1</td>
+    <td>max</td>
+  </tr>
+  <tr>
+    <td>lake</td>
+    <td>0.1</td>
+    <td>max</td>
+  </tr>
+</table>
+
+</p>
 
 </br>
 
