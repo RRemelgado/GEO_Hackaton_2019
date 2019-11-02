@@ -14,7 +14,7 @@ Welcome to our gitLab project! It compiles the contribution of the <a href="http
 
 ### Process
 <p align="justify">
-We used a multi-variate scoring model to generate a layer that highlights potential groundwater deposits using state-of-the-art, multi-temporal, fine-resolution environmental metrics derived with a variety of satellite sensors. Nowadays, open-access satellite sensors are abundant and the development of 
+We used a multi-variate scoring model to generate a layer that highlights potential groundwater deposits using state-of-the-art, multi-temporal, fine-resolution environmental metrics derived with a variety of satellite sensors. Nowadays, open-access satellite sensors are abundant and the development of high-performance computing platforms has lead to an era of intensive data production. In this context, the challenge of the remote sensing community is shiftting from the development of new metrics to the ability to integrate an insane multitude of data products into a meaningful - and useful - representation of the world. Following this premise, we chose to integrate different products on biophysical and socio-economic variables to detect growndwater deposits that can be used to install bores. However, their detection is not merely a biophysical process. When accessing underground aquifers, elements such as polution created by densely populated areas needs to be taken into account, since they can easily contaminate the water deposits. 
 </p>
 
 </br>
