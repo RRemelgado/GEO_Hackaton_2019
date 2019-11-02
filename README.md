@@ -37,7 +37,7 @@ We used a multi-variate scoring model to generate a layer that highlights potent
 
 <p align="justify">
 <a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about"><img width="150" height="100" src="https://www.earthobservations.org/images/page-graphics/top_banner_main_l_new.png"></a>
-<a href="https://geobon.org/"><img width="150" height="150" src="https://geobon.org/wp-content/uploads/2018/09/cropped-site-icon.png"></a>
-<a href="https://www.idiv.de/en"><img width="150" height="50" src="https://www.idiv.de/fileadmin/templates/images/logo.png"></a>
-<a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html"><img width="150" height="50" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/MaS_long.svg"></a>
+<a href="https://geobon.org/"><img width="100" height="100" src="https://geobon.org/wp-content/uploads/2018/09/cropped-site-icon.png"></a>
+<a href="https://www.idiv.de/en"><img width="150" height="100" src="https://www.idiv.de/fileadmin/templates/images/logo.png"></a>
+<a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html"><img width="150" height="100" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/MaS_long.svg"></a>
 </p>
