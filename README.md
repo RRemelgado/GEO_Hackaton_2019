@@ -106,17 +106,19 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
 
 ### The Web App
 <p align="justify">
-
 </p>
 
 </br>
 
 ### Future developments
-* Direct access to satellite analysis-ready data services (e.g. GSKY, Google Earth Engine) for a timely update of our service integrating user-adjusted data
-* Inclusion of machine-/deep-learning technologies to refine the selection of potential groundwater
-* Delivery of time-series on climate conditions associated to the potential groundwater sites detected by our algorithm to inform on wet/dry conditions
-* Relate information on e.g. atmospheric polution provided through the Copernicus Atmosphere API to identify potentially contaminated aquifers
-* Allow users to provide their own information on e.g. temperature / humidity / soil moisture from mini weather stations as a modeling co-variate
+<p align="justify">
+  <ul>
+    <li>Direct access to satellite analysis-ready data services (e.g. GSKY, Google Earth Engine) for a timely update of our service integrating user-adjusted data</li>
+    <li>Inclusion of machine-/deep-learning technologies to refine the selection of potential groundwater</li>
+    <li>Delivery of time-series on climate conditions associated to the potential groundwater sites detected by our algorithm to inform on wet/dry conditions</li>
+    <li>Relate information on e.g. atmospheric polution provided through the Copernicus Atmosphere API to identify potentially contaminated aquifers</li>
+    <li>Allow users to provide their own information on e.g. temperature / humidity / soil moisture from mini weather stations as a modeling co-variate</li>
+</p>
 
 </br>
 
