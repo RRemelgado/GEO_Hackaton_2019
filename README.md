@@ -39,9 +39,7 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
 
 </br>
 
-<p align="center">
-  
-<table>
+<table style="margin:0px auto; width:500px">
   <tr>
     <th>Variable</th>
     <th>Weight</th>
@@ -103,8 +101,6 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
     <td>max</td>
   </tr>
 </table>
-
-</p>
 
 </br>
 
