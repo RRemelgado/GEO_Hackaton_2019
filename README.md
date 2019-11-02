@@ -36,8 +36,8 @@ We used a multi-variate scoring model to generate a layer that highlights potent
 </br>
 
 <p align="justify">
-<a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about"><img width="150" height="50" src="https://www.earthobservations.org/images/page-graphics/top_banner_main_l_new.png"></a>
-
-<a href="https://geobon.org/"><img width="220" height="50" src="https://geobon.org/wp-content/uploads/2018/01/GEOBON-white.png"></a>
-
-</P>
+<a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about"><img width="150" height="100" src="https://www.earthobservations.org/images/page-graphics/top_banner_main_l_new.png"></a>
+<a href="https://geobon.org/"><img width="150" height="150" src="https://geobon.org/wp-content/uploads/2018/09/cropped-site-icon.png"></a>
+<a href="https://www.idiv.de/en"><img width="150" height="50" src="https://www.idiv.de/fileadmin/templates/images/logo.png"></a>
+<a href="https://www.idiv.de/en"><img width="150" height="50" src="https://portal.idiv.de/owncloud/index.php/s/GTqR73mcEWXgpXw"></a>
+</p>
