@@ -21,15 +21,6 @@ Nowadays, open-access satellite sensors are abundant and the development of high
 <p align="justify">
 In this exercie, we integrated different products on biophysical conditons (i.e. climate, soil, water balance, surface water) to detect locations with potential groundwater deposits that are suitable for the installation of bores, an essential practice in rural development. Moreover, our work dependended on state-of-the-art socio-economic variables, such as population density and distance to the nearest city, variables that are deeply dependent on a variety of complex remote sensing products (e.g. urban areas, building height). When accessing underground aquifers, elements such as polution originating from densely populated areas can contribute for the contamination of water deposits, making such layers highly relevant.
 </p>
-
-</br>
-
-<p align="center">
-<img width="600" height="300" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/studySite.png">
-</p>
-
-</br>
-
 <p align="justify">
 We collected all of these variables using a series of open-access data portals (e.g. Google Earth Engile, Copernicus, CCI) over Thailand and its neighboring coutries at a resolution of 300 m. Then, we combined them in a multi-variate scoring model where each variable receives a weight after scaling representing its importance in the model, seen in the table below. The importance field represents which values are highlighted. When "max", the highest values in the variable are most important. The presence example Seasonal water (set to "max") can help us detect pixels where water can have infitrated into the underground and where the instalation of bores is possible. However, pixels with permanent water (set to "min") are likely covered by e.g. rivers where the instalation of bores is not feasible. 
 </p>
@@ -72,5 +63,5 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
 </br>
 
 <p align="center">
-<a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about"><img width="160" height="65" src="https://www.earthobservations.org/images/page-graphics/top_banner_main_l_new.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://geobon.org/"><img width="75" height="75" src="https://geobon.org/wp-content/uploads/2018/09/cropped-site-icon.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.idiv.de/en"><img width="160" height="65" src="https://www.idiv.de/fileadmin/templates/images/logo.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html"><img width="160" height="110" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/MaS_long.svg"></a>
+<a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about"><img width="160" height="65" src="https://www.earthobservations.org/images/page-graphics/top_banner_main_l_new.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://geobon.org/"><img width="75" height="75" src="https://geobon.org/wp-content/uploads/2018/09/cropped-site-icon.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.idiv.de/en"><img width="160" height="65" src="https://www.idiv.de/fileadmin/templates/images/logo.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html"><img width="160" height="55" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/MaS_long.svg"></a>
 </p>
