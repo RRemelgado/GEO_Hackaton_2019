@@ -46,12 +46,12 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
 | Soil Porosity        | 1      | min        |
 | Growndwater recharge | 1      | max        |
 | Pop. Density         | 0.5    | min        |
-| Distance to cities   | 0.5    | max        |
+| Travel time to cities| 0.5    | max        |
 | Water (seasonal)     | 0.2    | max        |
 | Water (permanent)    | 0.2    | min        |
-| NDVI                 | 0.2    | max        |
-| river                | 0.1    | max        |
-| lake                 | 0.1    | max        |
+| Landsat NDVI         | 0.2    | max        |
+| river distance       | 0.1    | max        |
+| lake distance        | 0.1    | max        |
 
 </br>
 
