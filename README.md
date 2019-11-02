@@ -14,10 +14,28 @@ Welcome to our gitLab project! It compiles the contribution of the <a href="http
 
 ### Process
 <p align="justify">
-We used a multi-variate scoring model to generate a layer that highlights potential groundwater deposits using state-of-the-art, multi-temporal, fine-resolution environmental metrics derived with a variety of satellite sensors. Nowadays, open-access satellite sensors are abundant and the development of high-performance computing platforms has lead to an era of intensive data production. In this context, the challenge of the remote sensing community is shiftting from the development of new metrics to the ability to integrate an insane multitude of data products into a meaningful - and useful - representation of the world. Following this premise, we chose to integrate different products on biophysical and socio-economic variables to detect growndwater deposits that can be used to install bores. However, their detection is not merely a biophysical process. When accessing underground aquifers, elements such as polution created by densely populated areas needs to be taken into account, since they can easily contaminate the water deposits. 
+Nowadays, open-access satellite sensors are abundant and the development of high-performance computing platforms has lead to an era of intensive data production. In this context, the challenge of the remote sensing community is shiftting from the development of new metrics to the ability to integrate an insane multitude of data products into a meaningful - and useful - representation of the world that can serve practical applications such as the challenge at hand.
 </p>
+<p align="justify">
+In this exercie, we integrated different products on biophysical conditons (i.e. climate, soil, water balance, surface water) to detect locations with potential groundwater deposits that are suitable for the instalation of bores, an essential practice in rural development. Moreover, our work dependended on state-of-the-art socio-economic variables, such as population density and distance to the nearest city, variables that are deeply dependent on a variety of complex remote sensing products (e.g. urban areas, building height). When accessing underground aquifers, elements such as polution originating from densely populated areas can contribute for the contamination of water deposits, making such layers highly relevant.
+</p>
+<p align="justify">
+We collected all of these variables using a series of open-access data portals (e.g. Google Earth Engile, Copernicus, CCI) over Thailand and its neighboring coutries at a resolution of 300 m. Then, we combined them in a multi-variate scoring model where each variable 
 
 </br>
+| Variable             | Weight | Importance |
+|----------------------|--------|------------|
+| Soil Depth           | 1      | max        |
+| Slope                | 1      | min        |
+| Soil Porosity        | 1      | min        |
+| Growndwater recharge | 1      | max        |
+| Pop. Density         | 0.5    | min        |
+| Distance to cities   | 0.5    | max        |
+| Water (seasonal)     | 0.2    | max        |
+| Water (permanent)    | 0.2    | min        |
+| NDVI                 | 0.2    | max        |
+| river                | 0.1    | max        |
+| lake                 | 0.1    | max        |
 
 ### The Web App
 <p align="justify">
