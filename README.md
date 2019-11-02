@@ -1,5 +1,7 @@
 ## GEO Hackaton 2019 Challenge 6: Detecting Ground Water Point Bore Wells
 
+<img src="https://www.earthobservations.org/documents/geo16/hackathon_banner_m.jpg">
+
 ### Description
 Welcome to our gitLab project! It compiles the contribution of the <a href="https://www.idiv.de/en">German Centre for Integrative Biodiversity Research (iDiv)</a> to <a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about">the GEO Week 2019 Hackaton</a> where we spent two (very intensive) days developing a web application to inform on potentiatly suitable locations to install bores in Thailand. Given the spatial extent of our study region, we did not upload the remote sensing variables used in this exercise. However, we uploaded our folder structure along with some of it's data, which offers a baseline to reproduce our work.
 
