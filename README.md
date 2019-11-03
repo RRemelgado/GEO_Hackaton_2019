@@ -201,20 +201,22 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 <p align="center"><caption>Variables used and their corresponding influence in the scoring model</caption></p>
 
-### The Web App
+### The Ground Water Point Data Portal
 
 </br>
 
-<p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_1.png"></p>
+<p align="center"><img width=800 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_1.png"></p>
 
-<p align="center"><caption>Webpage interface</caption><br>
-Video: https://www.youtube.com/watch?v=F0Gr4_sou7k</p>
+<p align="center"><caption>Web app interface</caption></p>
 
 
 </br>
 
 <p align="justify">
-We developed a "Ground water point portal", a full-working mobile-friendly web application to inform and detect potentially locations to install ground water bore wells in Thailand.
+We developed a "Ground water point portal", a full-working mobile-friendly web application to inform and detect potentially locations to install ground water bore wells in Thailand.</p>
+<p align="justify">
+Video of the data portal: https://www.youtube.com/watch?v=F0Gr4_sou7k
+</p>
 A heatmap gives the user an insight about potential locations. The user can search and filter for the potential points. Each location has information about the
 <ul>
 	<li>Name of the location</li>
@@ -234,7 +236,7 @@ By adding another ground water point to the map the user can provide detailed in
 
 </br>
 
-<p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
+<p align="center"><img width=800 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
 
 <p align="center"><caption>User-prompted update to the point database</caption></p>
 
