@@ -7,6 +7,12 @@ Welcome to our gitLab project! It compiles the contribution of the <a href="http
 
 </br>
 
+<p align="center">
+<img width=600 height=300 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/studySite.png">
+</p>
+
+</br>
+
 ### Background
 <p align="justify">
 "Main problems we considering are ground water. Intensive use of groundwater for irrigation leads to the lowering of water tables, reducing its potential for future use. It also generates multiple negative externalities, including salinity, stream depletion, or land subsidence that directly affect agricultural productivity, water users and the environment. So, what we are doing was detecting precise ground water points for installing bore wells. This leads to precision agriculture and also it helps in not wasting resources. On the other hand, we are arranging a mini weather station which helps in detecting Temperature, humidity, soil moisture and pm values in advance. This will help in effective use of water and pm values will help in detecting the density in crop. Main users for our project are farmers and our project will help farmers. By solving these issues, we can create huge impact on agriculture development in future, because these issues lead the farmer contact directly with producer without any expert interference in the fields."
@@ -20,12 +26,6 @@ Nowadays, open-access satellite sensors are abundant and the development of high
 </p>
 <p align="justify">
 In this exercie, we integrated different products on biophysical conditons (i.e. climate, soil, water balance, surface water) to detect locations with potential groundwater deposits that are suitable for the installation of bores, an essential practice in rural development. Moreover, our work dependended on state-of-the-art socio-economic variables, such as population density and distance to the nearest city, variables that are deeply dependent on a variety of complex remote sensing products (e.g. urban areas, building height). When accessing underground aquifers, elements such as polution originating from densely populated areas can contribute for the contamination of water deposits, making such layers highly relevant.
-</p>
-
-</br>
-
-<p align="center">
-<img width=600 height=300 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/studySite.png">
 </p>
 
 </br>
@@ -119,6 +119,17 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
     <li>Relate information on e.g. atmospheric polution provided through the Copernicus Atmosphere API to identify potentially contaminated aquifers</li>
     <li>Allow users to provide their own information on e.g. temperature / humidity / soil moisture from mini weather stations as a modeling co-variate</li>
   </ul>
+</p>
+
+</br>
+
+### Out team
+<p align="justify">
+While we are all work on biodiversity at <a href="https://www.idiv.de/en">iDiv</a>, we are a multi-disciplinary team composed by members of different groups with very different academic and professional backgrounds. If you wish to know more about us and our research, have a look at our contact details below.
+<ul>
+  <li><a href="https://www.idiv.de/en/groups_and_people/employees/details/164.html">Christian Langer</a>, technical expert at the <a href="https://www.idiv.de/en/groups_and_people/core_groups/biodiversity_conservation/team.html">Biodiversity and Convervation group</li>
+  <li><a htef="https://www.idiv.de/en/groups_and_people/employees/details/1034.html">Ruben Remelgado</a>, technical expert at the <a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html">Macroecology and Society group</a></li>
+  <li><a href="https://www.idiv.de/en/groups_and_people/employees/details/985.html">Steffen Ehrmann</a>, Post-Doc at the <a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html">Macroecology and Society group</a></li>
 </p>
 
 </br>
