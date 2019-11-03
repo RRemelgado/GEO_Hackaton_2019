@@ -230,7 +230,7 @@ A heatmap gives the user an insight about potential ground water locations. The 
 Adding another ground water point to the map by clicking "Detect a point" the user can submit detailed information about the location and the ground water probability incl. photos and edit the geographical location of the point.
 </p>
 
-<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_5.jpg"></p>
+<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_5.png"></p>
 <p align="center"><caption>Ground water points provide information about the site</caption></p>
 
 <p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_2.jpg"></p>
