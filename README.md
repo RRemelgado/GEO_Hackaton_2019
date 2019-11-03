@@ -26,6 +26,12 @@ In regions such as Thailand and its neighboring countries, where food production
 <p align="justify">
 Nowadays, open-access satellite sensors are abundant and the development of high-performance computing platforms has led to an era of intensive data production. In this context, the challenge of the remote sensing community is shifting from the development of new metrics to the ability to integrate an insane multitude of data products into a meaningful - and useful - representation of the world that can serve practical applications such as the challenge at hand.
 </p>
+
+<table>
+<th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/coding_small.jpg">
+<th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/sugar_small.jpg"></p></th>
+</table>
+
 <p align="justify">
 In this exercise, we integrated different products on biophysical conditions (i.e. climate, soil, water balance, surface water) to detect locations with potential groundwater deposits that are suitable for the installation of bores, an essential practice in rural development. Moreover, our work depended on state-of-the-art socio-economic variables, such as population density and distance to the nearest city, variables that are deeply dependent on a variety of complex remote sensing products (e.g. urban areas, building height). When accessing underground aquifers, elements such as pollution originating from densely populated areas can contribute for the contamination of water deposits, making such layers highly relevant.
 </p>
