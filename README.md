@@ -1,10 +1,10 @@
-## GEO Hackaton 2019 Challenge 6: Detecting Ground Water Point Bore Wells
+## GEO Hackathon 2019 Challenge 6: Detecting Ground Water Point Bore Wells
 
 <img src="https://www.earthobservations.org/documents/geo16/hackathon_banner_m.jpg">
 
 ### Description
 <p align="justify">
-Welcome to our gitLab project! It describes the contribution of the <a href="https://www.idiv.de/en">German Centre for Integrative Biodiversity Research (iDiv)</a> to the <a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about">GEO Week 2019 Hackaton</a> where we spent two (very intensive) days developing a web application to inform on potentially locations to install bores in Thailand. Given the large spatial extent of our study region, we did not upload the remote sensing variables used in this exercise. However, we uploaded our folder structure along with our outputs and the underlying code.
+Welcome to our gitLab project! It describes the contribution of the <a href="https://www.idiv.de/en">German Centre for Integrative Biodiversity Research (iDiv)</a> to the <a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about">GEO Week 2019 Hackathon</a> where we spent two (very intensive) days developing a web application to inform on potentially locations to install bores in Thailand. Given the large spatial extent of our study region, we did not upload the remote sensing variables used in this exercise. However, we uploaded our folder structure along with our outputs and the underlying code.
 </p>
 
 </br>
@@ -26,6 +26,12 @@ In regions such as Thailand and its neighboring countries, where food production
 <p align="justify">
 Nowadays, open-access satellite sensors are abundant and the development of high-performance computing platforms has led to an era of intensive data production. In this context, the challenge of the remote sensing community is shifting from the development of new metrics to the ability to integrate an insane multitude of data products into a meaningful - and useful - representation of the world that can serve practical applications such as the challenge at hand.
 </p>
+
+<table style="border: 1px solid transparent">
+<th><p align="center"><img height="400" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/coding_small.jpg">
+<th><p align="center"><img height="400" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/sugar_small.jpg"></p></th>
+</table>
+
 <p align="justify">
 In this exercise, we integrated different products on biophysical conditions (i.e. climate, soil, water balance, surface water) to detect locations with potential groundwater deposits that are suitable for the installation of bores, an essential practice in rural development. Moreover, our work depended on state-of-the-art socio-economic variables, such as population density and distance to the nearest city, variables that are deeply dependent on a variety of complex remote sensing products (e.g. urban areas, building height). When accessing underground aquifers, elements such as pollution originating from densely populated areas can contribute for the contamination of water deposits, making such layers highly relevant.
 </p>
@@ -201,7 +207,9 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 <p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_1.png"></p>
 
-<p align="center"><caption>Webpage interface</caption></p>
+<p align="center"><caption>Webpage interface</caption><br>
+Video: https://www.youtube.com/watch?v=F0Gr4_sou7k</p>
+
 
 </br>
 
@@ -219,6 +227,11 @@ A heatmap gives the user an insight about potential locations. The user can sear
 By adding another ground water point to the map the user can provide detailed information about the ground water probability incl. photos of the location and edit the geographical location.
 </p>
 
+<table style="border: 1px solid transparent">
+<th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_2.jpg">
+<th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_3.jpg"></p></th>
+</table>
+
 </br>
 
 <p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
@@ -234,7 +247,7 @@ The portal is Javascript full-stack web application.<br>
 Backend components:
 <ul>
 <li><a href="https://nodejs.org/en">nodejs</a></li>
-<li><a href="https://www.mongodb.com">Mongo DB</a></li>
+<li><a href="https://www.mongodb.com">MongoDB</a></li>
 </ul>
 Frontend components:
 <ul>
@@ -246,10 +259,10 @@ Frontend components:
 </ul>
 </p>
 
-#### Get started
-The `package.json` includes all dependencies to install.
+#### Installation
+The `package.json` includes all dependencies to install. Make sure you have MongoDB running.
 
-To run the web app just use `npm start`. Open your web browser and navigate to port 3000 via `http://localhost:3000`.
+To run the web app just use `npm start`. Open your web browser and navigate to port 3000 on `http://localhost:3000`.
 
 That´s it! You are now ready to use the Ground water point portal!
 
@@ -257,7 +270,7 @@ That´s it! You are now ready to use the Ground water point portal!
 
 ### Is it Scalable?
 <p align="justify">
-Short answer: Yes! We wrote the algorithm behind the final product in Pyhton and made it dependent on purely open-source modules. Moreover, we designed the underlying scripts as modular, command line applications that are compatible highly concurrent (or parallelized) computation system. When dealing with larger areas, we can easily integrate our algorithm with a spatial tilling system to process large volumes of data. Moreover, while the scoring model integrates several variables, the script behind it is independent of this fact.  We can easily customize the set of input layers by editing a simple configuration file that provides information on the location of these variables as well as their weight in the final model. The modular nature of our algorithm means we can easily replace its different components, allowing us to refine our product in the future without the need for time-consuming revisions of one-time scripts.
+Short answer: Yes! We wrote the algorithm behind the final product in Python and made it dependent on purely open-source modules. Moreover, we designed the underlying scripts as modular, command line applications that are compatible highly concurrent (or parallelized) computation system. When dealing with larger areas, we can easily integrate our algorithm with a spatial tilling system to process large volumes of data. Moreover, while the scoring model integrates several variables, the script behind it is independent of this fact.  We can easily customize the set of input layers by editing a simple configuration file that provides information on the location of these variables as well as their weight in the final model. The modular nature of our algorithm means we can easily replace its different components, allowing us to refine our product in the future without the need for time-consuming revisions of one-time scripts.
 </p>
 
 </br>
@@ -283,6 +296,9 @@ While we are all work on biodiversity at <a href="https://www.idiv.de/en">iDiv</
   <li><a href="https://www.idiv.de/en/groups_and_people/employees/details/1034.html">Ruben Remelgado</a>, technical expert at the <a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html">Macroecology and Society group</a> (<a href="https://github.com/RRemelgado">GitHub</a>)</li>
   <li><a href="https://www.idiv.de/en/groups_and_people/employees/details/985.html">Steffen Ehrmann</a>, Post-Doc at the <a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html">Macroecology and Society group</a> (<a href="https://github.com/EhrmannS">GitHub</a>)</li>
 </p>
+
+
+<p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/iDiv_groupphoto_small.jpg"></p>
 
 </br>
 </br>
