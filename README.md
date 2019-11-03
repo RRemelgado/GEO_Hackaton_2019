@@ -14,9 +14,9 @@ In regions such as Thailand and its neighboring countries, where food production
 
 </br>
 
-<p align="center">
-<img width=600 height=300 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/studySite.png"><caption>Study site location</caption>
-</p>
+<p align="center"><img width=600 height=300 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/studySite.png"></p>
+
+<p align="center"><caption>Study site location</caption></p>
 
 </br>
 
