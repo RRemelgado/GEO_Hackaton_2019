@@ -104,6 +104,9 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
 
 </br>
 
+
+<p align="center"><caption>Variables used for modelling and their corresponding influence in the score model</caption></p>
+
 ### The Web App
 <p align="justify">
 </p>
