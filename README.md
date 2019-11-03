@@ -34,7 +34,7 @@ In this exercie, we integrated different products on biophysical conditons (i.e.
 We collected all of these variables using a series of open-access data portals (e.g. Google Earth Engile, Copernicus, CCI) over Thailand and its neighboring coutries at a resolution of 300 m. Then, we combined them in a multi-variate scoring model where each variable receives a weight after scaling representing its importance in the model, seen in the table below. The importance field represents which values are highlighted. When "max", the highest values in the variable are most important. The presence example Seasonal water (set to "max") can help us detect pixels where water can have infitrated into the underground and where the instalation of bores is possible. However, pixels with permanent water (set to "min") are likely covered by e.g. rivers where the instalation of bores is not feasible. 
 </p>
 <p align="justify">
-The final layer was then queried with Open Street Map (OSM) data on wells to determine an optimal threshold for selecting groundwater deposits and then converted the selected pixels to a vector that was fed to our webapp, together with information on e.g. land cover, precipitation and temperature for the selected sites. The algorithms were developed in python and depend on purely open-source modules. The resulting functions were written as scalable command line application and can be used sequentially to automatically generate an updated version of our product.
+The final layer was then queried with well samples collected with Open Street Map (OSM) to determine an optimal threshold for selecting groundwater deposits and then converted the selected pixels to a vector that was fed to our webapp, together with information on e.g. land cover, precipitation and temperature for the selected sites.
 </p>
 
 </br>
@@ -109,6 +109,13 @@ The final layer was then queried with Open Street Map (OSM) data on wells to det
 
 ### The Web App
 <p align="justify">
+</p>
+
+</br>
+
+### Is it Scalable?
+<p align="justify">
+Short answer: Yes! Independently fom the web access, the algorithm behind the final product was written in Pyhton and depends on purely open-source modules. Moreover, the underlying scripts were designed as modular, command line application that can be used in a highly concurrent (or parallelized) computation system. While the scoring model integrates several variables, the script behind it is independent of this fact and we can easily customize the set of input layers by editing a simple configuration file. The modular nature of our algorithm means its different components can be easily replaced, helping to quickly refine our product without the need for time-consuming revisions of one-shot scripts.
 </p>
 
 </br>
