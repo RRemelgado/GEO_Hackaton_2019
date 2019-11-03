@@ -196,6 +196,15 @@ The final layer was then queried with well samples collected with Open Street Ma
 <p align="center"><caption>Variables used and their corresponding influence in the scoring model</caption></p>
 
 ### The Web App
+
+</br>
+
+<p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_1.png"></p>
+
+<p align="center"><caption>Webpage interface</caption></p>
+
+</br>
+
 <p align="justify">
 We developed a "Ground water point portal", a full-working mobile-friendly web application to inform and detect potentially locations to install ground water bore wells in Thailand.
 A heatmap gives the user an insight about potential locations. The user can search and filter for the potential points. Each location has information about the
@@ -209,6 +218,14 @@ A heatmap gives the user an insight about potential locations. The user can sear
 </ul>
 By adding another ground water point to the map the user can provide detailed information about the ground water probability incl. photos of the location and edit the geographical location.
 </p>
+
+</br>
+
+<p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
+
+<p align="center"><caption>User-prompted update to the point database</caption></p>
+
+</br>
 
 #### Components
 
@@ -235,9 +252,6 @@ The `package.json` includes all dependencies to install.
 To run the web app just use `npm start`. Open your web browser and navigate to port 3000 via `http://localhost:3000`.
 
 That´s it! You are now ready to use the Ground water point portal!
-
-#### Screenshots
-
 
 </br>
 
