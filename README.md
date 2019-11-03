@@ -205,7 +205,7 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 </br>
 
-<p align="center"><img width=800 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_1.png"></p>
+<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_1.png"></p>
 
 <p align="center"><caption>Web app interface</caption></p>
 
@@ -236,7 +236,7 @@ By adding another ground water point to the map the user can provide detailed in
 
 </br>
 
-<p align="center"><img width=800 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
+<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
 
 <p align="center"><caption>User-prompted update to the point database</caption></p>
 
