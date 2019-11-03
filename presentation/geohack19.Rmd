@@ -1,0 +1,57 @@
+---
+title: 
+output:
+  revealjs::revealjs_presentation:
+    theme: white
+    highlight: pygments
+    center: true
+    incremental: true
+    self_contained: false
+    transition: fade
+    mathjax: local
+    css: idiv.css
+    fig_height: 5
+    fig_caption: true
+    reveal_plugins: ["notes", "zoom"]
+    reveal_options:
+      slideNumber: 'c/t'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<section data-background="img/presentation-examples_1.png">
+
+<div>
+  <h1>
+    <span class="highlight">Detecting Ground Water Point Bore Wells</span>
+  </h1>
+</div>
+
+<br>
+
+<div>
+  <h3>
+    <span class="white">GEO Hackathon 2019<br>Challenge 6</span>
+  </h3>
+</div>
+
+<br>
+
+<div>
+  <p>
+	<small><span class="white">Ruben Remelgado, Christian Langer, Steffen Ehrmann</span></small>
+	</p>
+</div>
+
+</section>
+
+## Background
+
+Food production in south east asia is contingent on intensive, water dependen agriculture (rice)
+
+## Goal
+
+web application to inform on potentially locations to install bores in Thailand
+
