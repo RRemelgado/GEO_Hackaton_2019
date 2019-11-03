@@ -247,7 +247,7 @@ The portal is Javascript full-stack web application.<br>
 Backend components:
 <ul>
 <li><a href="https://nodejs.org/en">nodejs</a></li>
-<li><a href="https://www.mongodb.com">Mongo DB</a></li>
+<li><a href="https://www.mongodb.com">MongoDB</a></li>
 </ul>
 Frontend components:
 <ul>
