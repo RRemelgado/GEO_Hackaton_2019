@@ -287,6 +287,9 @@ While we are all work on biodiversity at <a href="https://www.idiv.de/en">iDiv</
   <li><a href="https://www.idiv.de/en/groups_and_people/employees/details/985.html">Steffen Ehrmann</a>, Post-Doc at the <a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html">Macroecology and Society group</a> (<a href="https://github.com/EhrmannS">GitHub</a>)</li>
 </p>
 
+
+<p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/iDiv_groupphoto_small.jpg"></p>
+
 </br>
 </br>
 
