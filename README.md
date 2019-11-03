@@ -7,15 +7,15 @@ Welcome to our gitLab project! It compiles the contribution of the <a href="http
 
 </br>
 
-<p align="center">
-<img width=600 height=300 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/studySite.png">
+### Background
+<p align="justify">
+In regions such as Thailand and its neighboring countries, where food production is contingent on intensive, water dependent agriculture, the drainage of groundwater for irrigation contributes to the lowering of water tables, compromising its long-term use. This contributes to negative side-effects, such as salinity, stream depletion and land subsidence, that hinder agricultural productivity putting food security - and environmental sustanability - at grave risk. In tis context, the detection of groundwater storage - which can be explored though bore holes - is an essential step to optimize water utilization. This knowledge can lead farmers towards precision agriculture and avoid a waste of resources, as well as it's depletion within threaten aquifers. Such information can be further supported by the use of field-level weather stations. Such stations offer information on biophysical parametes such as temperature, humidity, soil moisture and particular matter, and can be used to refine the mapping and monitoring of groundwater. This effectively empowers the farmers, turning them into active contributers of environmental monitoring.
 </p>
 
 </br>
 
-### Background
-<p align="justify">
-"Main problems we considering are ground water. Intensive use of groundwater for irrigation leads to the lowering of water tables, reducing its potential for future use. It also generates multiple negative externalities, including salinity, stream depletion, or land subsidence that directly affect agricultural productivity, water users and the environment. So, what we are doing was detecting precise ground water points for installing bore wells. This leads to precision agriculture and also it helps in not wasting resources. On the other hand, we are arranging a mini weather station which helps in detecting Temperature, humidity, soil moisture and pm values in advance. This will help in effective use of water and pm values will help in detecting the density in crop. Main users for our project are farmers and our project will help farmers. By solving these issues, we can create huge impact on agriculture development in future, because these issues lead the farmer contact directly with producer without any expert interference in the fields."
+<p align="center">
+<img width=600 height=300 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/studySite.png"><caption>Study site location</caption>
 </p>
 
 </br>
