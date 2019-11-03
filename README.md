@@ -201,6 +201,8 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 <p align="center"><caption>Variables used and their corresponding influence in the scoring model</caption></p>
 
+</br>
+
 ### The Ground Water Point Data Portal
 
 </br>
@@ -213,29 +215,23 @@ The final layer was then queried with well samples collected with Open Street Ma
 </br>
 
 <p align="justify">
-We developed a "Ground water point portal", a full-working mobile-friendly web application to inform and detect potentially locations to install ground water bore wells in Thailand.</p>
+We developed a "Ground water point portal", a full-working mobile-friendly web application to inform and detect potentially locations to install ground water bore wells in SE Asia.</p>
 <p align="justify">
-Video of the data portal: https://www.youtube.com/watch?v=F0Gr4_sou7k
+Demo of the data portal: https://www.youtube.com/watch?v=F0Gr4_sou7k
 </p>
-A heatmap gives the user an insight about potential locations. The user can search and filter for the potential points. Each location has information about the
+A heatmap gives the user an insight about potential ground water locations. The user can search and filter for potential ground water points. Each ground water point provides information about the
 <ul>
-	<li>Name of the location</li>
 	<li>Ground water probability</li>
 	<li>Land cover</li>
 	<li>Max Temperature</li>
 	<li>Soil Depth</li>
 	<li>Max Precipation</li>
 </ul>
-By adding another ground water point to the map the user can provide detailed information about the ground water probability incl. photos of the location and edit the geographical location.
+Adding another ground water point to the map by clicking "Detect a point" the user can submit detailed information about the location and the ground water probability incl. photos and edit the geographical location of the point.
 </p>
 
-<table style="border: 1px solid transparent">
-<th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_2.jpg">
-<th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_3.jpg"></p></th>
-</table>
-
-</br>
-
+<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_2.jpg"></p>
+<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_3.jpg"></p>
 <p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
 
 <p align="center"><caption>User-prompted update to the point database</caption></p>
