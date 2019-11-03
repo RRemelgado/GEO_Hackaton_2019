@@ -207,7 +207,7 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 <p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_1.png"></p>
 
-<p align="center"><caption>Webpage interface</caption>
+<p align="center"><caption>Webpage interface</caption><br>
 Video: https://www.youtube.com/watch?v=F0Gr4_sou7k</p>
 
 
