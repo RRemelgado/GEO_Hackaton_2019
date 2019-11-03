@@ -28,8 +28,8 @@ Nowadays, open-access satellite sensors are abundant and the development of high
 </p>
 
 <table style="border: 1px solid transparent">
-<th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/coding_small.jpg">
-<th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/sugar_small.jpg"></p></th>
+<th><p align="center"><img height="400" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/coding_small.jpg">
+<th><p align="center"><img height="400" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/sugar_small.jpg"></p></th>
 </table>
 
 <p align="justify">
