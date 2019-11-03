@@ -197,7 +197,47 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 ### The Web App
 <p align="justify">
+We developed a "Ground water point portal", a full-working mobile-friendly web application to inform and detect potentially locations to install ground water bore wells in Thailand.
+A heatmap gives the user an insight about potential locations. The user can search and filter for the potential points. Each location has information about the
+<ul>
+	<li>Name of the location</li>
+	<li>Ground water probability</li>
+	<li>Land cover</li>
+	<li>Max Temperature</li>
+	<li>Soil Depth</li>
+	<li>Max Precipation</li>
+</ul>
+By adding another ground water point to the map the user can provide detailed information about the ground water probability incl. photos of the location and edit the geographical location.
 </p>
+
+#### Components
+
+<p align="justify">
+The portal is Javascript full-stack web application.<br>
+Backend components:
+<ul>
+<li><a href="https://nodejs.org/en">nodejs</a></li>
+<li><a href="https://www.mongodb.com">Mongo DB</a></li>
+</ul>
+Frontend components:
+<ul>
+<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+<li><a href="http://leafletjs.com/">Leafletjs</a></li>
+<li><a href="http://twitter.github.io/typeahead.js/">typeahead</a></li>
+<li><a href="https://jquery.com/">jQuery</a></li>
+<li><a href="http://listjs.com/">list.js</a></li>
+</ul>
+</p>
+
+#### Get started
+The `package.json` includes all dependencies to install.
+
+To run the web app just use `npm start`. Open your web browser and navigate to port 3000 via `http://localhost:3000`.
+
+That´s it! You are now ready to use the Ground water point portal!
+
+#### Screenshots
+
 
 </br>
 
