@@ -42,61 +42,73 @@ The final layer was then queried with well samples collected with Open Street Ma
 <table style="margin:0px auto; width:500px">
   <tr>
     <th width="300" align="center">Variable</th>
+    <th width="300" align="center">Units</th>
     <th width="300" align="center">Weight</th>
     <th width="300" align="center">Importance</th>
   </tr>
   <tr>
     <td align="center">Soil Depth (cm)</td>
+    <td align="center">cm</td>
     <td align="center">1</td>
     <td align="center">max</td>
   </tr>
   <tr>
-    <td align="center">Slope (degrees)</td>
+    <td align="center">Slope</td>
+    <td align="center">degrees</td>
     <td align="center">1</td>
     <td align="center">min</td>
   </tr>
   <tr>
-    <td align="center">Soil Porosity (g/cm3)</td>
+    <td align="center">Soil Porosity</td>
+    <td align="center">g/cm3</td>
     <td align="center">1</td>
     <td align="center">min</td>
   </tr>
   <tr>
     <td align="center">Growndwater recharge (mm)</td>
+    <td align="center">mm</td>
     <td align="center">1</td>
     <td align="center">max</td>
   </tr>
   <tr>
     <td align="center">Population Density</td>
+    <td align="center">Habitats/km2</td>
     <td align="center">0.5</td>
     <td align="center">min</td>
   </tr>
   <tr>
     <td align="center">Distance to cities</td>
+    <td align="center">Days</td>
     <td align="center">0.5</td>
     <td align="center">max</td>
   </tr>
   <tr>
-    <td align="center">% Seasonal surface water</td>
+    <td align="center">Seasonal surface water</td>
+    <td align="center">%</td>
     <td align="center">0.2</td>
     <td align="center">max</td>
   </tr>
   <tr>
     <td align="center"> % Permanent surface water</td>
+    <td align="center">%</td>
     <td align="center">0.2</td>
     <td align="center">min</td>
   </tr>
   <tr>
     <td align="center">Landsat NDVI</td>
+    <td align="center">Unitless</td>
     <td align="center">0.2</td>
     <td align="center">max</td>
   </tr>
   <tr>
-    <td align="center">Distance to rivers (meters)</td>
+    <td align="center">Distance to rivers</td>
+    <td align="center">Meters</td>
     <td align="center">0.1</td>
     <td align="center">max</td>
   </tr>
   <tr>
-    <td align="center">Distance to lakes (meters)</td>
+    <td align="center">Distance to lakes</td>
+    <td align="center">Meters</td>
     <td align="center">0.1</td>
     <td align="center">max</td>
   </tr>
