@@ -30,6 +30,40 @@ In this exercie, we integrated different products on biophysical conditons (i.e.
 
 </br>
 
+<table style="margin:0px auto; width:500px">
+  <tr>
+    <th width="300" align="center">Dataset</th>
+    <th width="300" align="center">Source</th>
+    <th width="300" align="center">Variable</th>
+    <th width="300" align="center">Access</th>
+  </tr>
+  <tr>
+    <td width="300" rowspan=2>SoilGrids</td>
+    <td width="300" rowspan=2>ISRIC</td>
+    <td width="300">Soil Depth</td>
+    <td width="300" rowspan=2><a href="https://www.isric.org/explore/soilgrids">Webportal</a></td>
+  </tr>
+  <tr>
+    <td width="300">Soil Porosity</td>
+   </tr>
+    <tr>
+    <td width="300" rowspan=2>Global Surface Water</td>
+    <td width="300" rowspan=2>JRC</td>
+    <td width="300">Permanent Water</td>
+    <td width="300" rowspan=2><a href="https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_1_GlobalSurfaceWater">GEE API</a></td>
+  </tr>
+  <tr>
+    <td width="300">Seasonal water</td>
+   </tr>
+
+  
+</table>
+
+</br>
+
+
+</br>
+
 <p align="justify">
 We collected all of these variables using a series of open-access data portals (e.g. Google Earth Engile, Copernicus, CCI) over Thailand and its neighboring coutries at a resolution of 300 m. Then, we combined them in a multi-variate scoring model where each variable receives a weight after scaling representing its importance in the model, seen in the table below. The importance field represents which values are highlighted. When "max", the highest values in the variable are most important. The presence example Seasonal water (set to "max") can help us detect pixels where water can have infitrated into the underground and where the instalation of bores is possible. However, pixels with permanent water (set to "min") are likely covered by e.g. rivers where the instalation of bores is not feasible. 
 </p>
