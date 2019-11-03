@@ -27,7 +27,7 @@ In regions such as Thailand and its neighboring countries, where food production
 Nowadays, open-access satellite sensors are abundant and the development of high-performance computing platforms has led to an era of intensive data production. In this context, the challenge of the remote sensing community is shifting from the development of new metrics to the ability to integrate an insane multitude of data products into a meaningful - and useful - representation of the world that can serve practical applications such as the challenge at hand.
 </p>
 
-<table>
+<table style="border: 1px solid transparent">
 <th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/coding_small.jpg">
 <th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/sugar_small.jpg"></p></th>
 </table>
@@ -225,7 +225,7 @@ A heatmap gives the user an insight about potential locations. The user can sear
 By adding another ground water point to the map the user can provide detailed information about the ground water probability incl. photos of the location and edit the geographical location.
 </p>
 
-<table>
+<table style="border: 1px solid transparent">
 <th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_2.jpg">
 <th><p align="center"><img width="80%" src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_3.jpg"></p></th>
 </table>
