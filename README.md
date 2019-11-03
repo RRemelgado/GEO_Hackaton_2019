@@ -32,19 +32,19 @@ In this exercie, we integrated different products on biophysical conditons (i.e.
 
 <table style="margin:0px auto; width:500px">
   <tr>
-    <th width="300" align="center">Dataset</th>
+    <th width="200" align="center">Dataset</th>
     <th width="300" align="center">Source</th>
-    <th width="300" align="center">Variable</th>
+    <th width="400" align="center">Variable</th>
     <th width="300" align="center">Access</th>
   </tr>
   <tr>
-    <td width="300" align="center" rowspan=2>SoilGrids</td>
+    <td width="200" align="center" rowspan=2>SoilGrids</td>
     <td width="300" align="center" rowspan=2>MODIS</td>
-    <td width="300" align="center">Soil Depth</td>
-    <td width="300"  align="center" rowspan=2><a href="https://www.isric.org/explore/soilgrids">Webportal</a></td>
+    <td width="400" align="center">Soil Depth</td>
+    <td width="300" align="center" rowspan=2><a href="https://www.isric.org/explore/soilgrids">Webportal</a></td>
   </tr>
   <tr>
-    <td width="300">Soil Porosity</td>
+    <td width="300" align="center">Soil Porosity</td>
    </tr>
     <tr>
     <td width="300" align="center" rowspan=2>Global Surface Water</td>
