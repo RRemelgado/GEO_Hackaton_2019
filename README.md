@@ -292,9 +292,11 @@ Short answer: Yes! We wrote the algorithm behind the final product in Python and
 
 </br>
 
-### Out team
+### Our team
 <p align="justify">
-While we are all work on biodiversity at <a href="https://www.idiv.de/en">iDiv</a>, we are a multi-disciplinary team composed by members of different groups with very different academic and professional backgrounds. If you wish to know more about our research and us, have a look at our contact details below.
+While we are all work on biodiversity at <a href="https://www.idiv.de/en">iDiv</a>, we are a multi-disciplinary team composed by members of different groups with very different academic and professional backgrounds. If you wish to know more about our research and us, have a look at our contact details below.<br>
+
+<h5>Team iDiv</h5>
 <ul>
   <li><a href="https://www.idiv.de/en/groups_and_people/employees/details/164.html">Christian Langer</a>, technical expert at the <a href="https://www.idiv.de/en/groups_and_people/core_groups/biodiversity_conservation/team.html">Biodiversity and Convervation group</a> (<a href="https://github.com/ChristianLanger">GitHub</a>)</li>
   <li><a href="https://www.idiv.de/en/groups_and_people/employees/details/1034.html">Ruben Remelgado</a>, technical expert at the <a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html">Macroecology and Society group</a> (<a href="https://github.com/RRemelgado">GitHub</a>)</li>
