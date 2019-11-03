@@ -282,7 +282,7 @@ Short answer: Yes! We wrote the algorithm behind the final product in Python and
     <li>Inclusion of machine-/deep-learning technologies to refine the selection of potential groundwater</li>
     <li>Delivery of time-series on climate conditions associated to the potential groundwater sites detected by our algorithm to inform on wet/dry conditions</li>
     <li>Relate information on e.g. atmospheric polution provided through the Copernicus Atmosphere API to identify potentially contaminated aquifers</li>
-    <li>Allow users to provide their own information on e.g. temperature / humidity / soil moisture from mini weather stations as a modeling co-variate</li>
+    <li>Allow users to provide their own information on e.g. temperature / humidity / soil moisture from mini weather stations as a modeling co-variate to interactively improve our mapping given an active voice to farmers during the scientific process</li>
   </ul>
 </p>
 
