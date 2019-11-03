@@ -41,64 +41,64 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 <table style="margin:0px auto; width:500px">
   <tr>
-    <th>Variable</th>
-    <th>Weight</th>
-    <th>Importance</th>
+    <th width="300" align="center">Variable</th>
+    <th width="300" align="center">Weight</th>
+    <th width="300" align="center">Importance</th>
   </tr>
   <tr>
-    <td>Soil Depth</td>
-    <td>1</td>
-    <td>max</td>
+    <td align="center">Soil Depth (cm)</td>
+    <td align="center">1</td>
+    <td align="center">max</td>
   </tr>
   <tr>
-    <td>Slope</td>
-    <td>1</td>
-    <td>min</td>
+    <td align="center">Slope (degrees)</td>
+    <td align="center">1</td>
+    <td align="center">min</td>
   </tr>
   <tr>
-    <td>Soil Porosity</td>
-    <td>1</td>
-    <td>min</td>
+    <td align="center">Soil Porosity (g/cm3)</td>
+    <td align="center">1</td>
+    <td align="center">min</td>
   </tr>
   <tr>
-    <td>Growndwater recharge</td>
-    <td>1</td>
-    <td>max</td>
+    <td align="center">Growndwater recharge (mm)</td>
+    <td align="center">1</td>
+    <td align="center">max</td>
   </tr>
   <tr>
-    <td>Pop. Density</td>
-    <td>0.5</td>
-    <td>min</td>
+    <td align="center">Population Density</td>
+    <td align="center">0.5</td>
+    <td align="center">min</td>
   </tr>
   <tr>
-    <td>Distance to cities</td>
-    <td>0.5</td>
-    <td>max</td>
+    <td align="center">Distance to cities</td>
+    <td align="center">0.5</td>
+    <td align="center">max</td>
   </tr>
   <tr>
-    <td>Water (seasonal)</td>
-    <td>0.2</td>
-    <td>max</td>
+    <td align="center">% Seasonal surface water</td>
+    <td align="center">0.2</td>
+    <td align="center">max</td>
   </tr>
   <tr>
-    <td>Water (permanent)</td>
-    <td>0.2</td>
-    <td>min</td>
+    <td align="center"> % Permanent surface water</td>
+    <td align="center">0.2</td>
+    <td align="center">min</td>
   </tr>
   <tr>
-    <td>NDVI</td>
-    <td>0.2</td>
-    <td>max</td>
+    <td align="center">Landsat NDVI</td>
+    <td align="center">0.2</td>
+    <td align="center">max</td>
   </tr>
   <tr>
-    <td>river</td>
-    <td>0.1</td>
-    <td>max</td>
+    <td align="center">Distance to rivers (meters)</td>
+    <td align="center">0.1</td>
+    <td align="center">max</td>
   </tr>
   <tr>
-    <td>lake</td>
-    <td>0.1</td>
-    <td>max</td>
+    <td align="center">Distance to lakes (meters)</td>
+    <td align="center">0.1</td>
+    <td align="center">max</td>
   </tr>
 </table>
 
