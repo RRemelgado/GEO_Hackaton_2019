@@ -231,9 +231,12 @@ Adding another ground water point to the map by clicking "Detect a point" the us
 </p>
 
 <p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_2.jpg"></p>
-<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_3.jpg"></p>
-<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
+<p align="center"><caption>User can add potential ground water points incl. detailed information to the map</caption></p>
 
+<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_3.jpg"></p>
+<p align="center"><caption>Ground water point information by the user is shown on the map</caption></p>
+
+<p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_4.png"></p>
 <p align="center"><caption>User-prompted update to the point database</caption></p>
 
 </br>
