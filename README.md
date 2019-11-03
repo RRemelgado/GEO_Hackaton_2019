@@ -38,54 +38,63 @@ In this exercie, we integrated different products on biophysical conditons (i.e.
     <th width="300" align="center">Access</th>
   </tr>
   <tr>
-    <td width="300" rowspan=2>SoilGrids</td>
-    <td width="300" rowspan=2>MODIS</td>
-    <td width="300">Soil Depth</td>
-    <td width="300" rowspan=2><a href="https://www.isric.org/explore/soilgrids">Webportal</a></td>
+    <td width="300" align="center" rowspan=2>SoilGrids</td>
+    <td width="300" align="center" rowspan=2>MODIS</td>
+    <td width="300" align="center">Soil Depth</td>
+    <td width="300"  align="center" rowspan=2><a href="https://www.isric.org/explore/soilgrids">Webportal</a></td>
   </tr>
   <tr>
     <td width="300">Soil Porosity</td>
    </tr>
     <tr>
-    <td width="300" rowspan=2>Global Surface Water</td>
-    <td width="300" rowspan=2>Landsat</td>
-    <td width="300">Permanent Water</td>
-    <td width="300" rowspan=2><a href="https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_1_GlobalSurfaceWater">GEE API</a></td>
+    <td width="300" align="center" rowspan=2>Global Surface Water</td>
+    <td width="300" align="center" rowspan=2>Landsat</td>
+    <td width="300" align="center" align="center">Permanent Water</td>
+    <td width="300" align="center" rowspan=2><a href="https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_1_GlobalSurfaceWater">GEE API</a></td>
   </tr>
   <tr>
-    <td width="300">Seasonal water</td>
+    <td width="300" align="center">Seasonal water</td>
   </tr>
     <tr>
-    <td width="300">GHS POP</td>
-    <td width="300">Landsat</td>
-    <td width="300">Population density</td>
-    <td width="300"><a href="https://ghsl.jrc.ec.europa.eu/ghs_pop.php">Webportal</a></td>
+    <td width="300" align="center">GHS POP</td>
+    <td width="300" align="center">Landsat</td>
+    <td width="300" align="center">Population density</td>
+    <td width="300" align="center"><a href="https://ghsl.jrc.ec.europa.eu/ghs_pop.php">Webportal</a></td>
   </tr>
     <tr>
-    <td width="300">Travel Time</td>
-    <td width="300">Landsat</td>
-    <td width="300">Distance to cities > 50K Hab.</td>
-    <td width="300"><a href="https://ec.europa.eu/jrc/en/news/how-far-nearest-city-global-map-travel-time-cities-published">Webportal</a></td>
+    <td width="300" align="center">Travel Time</td>
+    <td width="300" align="center">Landsat</td>
+    <td width="300" align="center">Distance to cities > 50K Hab.</td>
+    <td width="300" align="center"><a href="https://ec.europa.eu/jrc/en/news/how-far-nearest-city-global-map-travel-time-cities-published">Webportal</a></td>
   </tr>
   <tr>
-    <td width="300">Surface Reflectances</td>
-    <td width="300">Landsat</td>
-    <td width="300">NDVI (max., median composite)</td>
-    <td width="300"><a href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR">GEE API</a></td>
+    <td width="300" align="center">Surface Reflectances</td>
+    <td width="300" align="center">Landsat</td>
+    <td width="300" align="center">NDVI (max., median composite)</td>
+    <td width="300" align="center"><a href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR">GEE API</a></td>
   </tr>
   <tr>
-    <td width="300">Precipitation</td>
-    <td width="300" rowspan=3>TerraClimate</td>
-    <td width="300" rowspan=3>Groundwater recharge</td>
-    <td width="300" rowspan=3><a href="http://www.climatologylab.org/terraclimate.html">Webportal</a></td>
+    <td width="300" align="center">Precipitation</td>
+    <td width="300" align="center" rowspan=3>TerraClimate</td>
+    <td width="300" align="center" rowspan=3>Groundwater recharge</td>
+    <td width="300" align="center" rowspan=3><a href="http://www.climatologylab.org/terraclimate.html">Webportal</a></td>
   </tr>
-  <tr><td width="300">Evapotranspiration</td></tr>
-  <tr><td width="300">Surface runoff</td></tr>
+  <tr><td width="300" align="center">Evapotranspiration</td></tr>
+  <tr><td width="300" align="center">Surface runoff</td></tr>
     <tr>
-    <td width="300">Global River Width</td>
-    <td width="300" rowspan=3>TerraClimate</td>
-    <td width="300" rowspan=3>Groundwater recharge</td>
-    <td width="300" rowspan=3><a href="http://www.climatologylab.org/terraclimate.html">Webportal</a></td>
+    <td width="300" align="center" rowspan=2>Global River Width</td>
+    <td width="300" align="center" rowspan=2>Landsat</td>
+    <td width="300" align="center">Distance to rivers</td>
+    <td width="300" align="center" rowspan=2><a href="https://zenodo.org/record/1269595#.Xb5n99V7k2w">Webportal</a></td>
+  </tr>                                                                                
+  <tr>
+    <td width="300" align="center">Distance to lakes</td>
+  </tr>
+  <tr>
+    <td width="300" align="center">CCI</td>
+    <td width="300" align="center">AVHRR/MERIT/etc</td>
+    <td width="300" align="center">Land cover</td>
+    <td width="300" align="center"><a href="https://maps.elie.ucl.ac.be/CCI/viewer/">Webportal</a></td>
   </tr>
 </table>
 
