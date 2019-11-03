@@ -100,6 +100,8 @@ In this exercise, we integrated different products on biophysical conditions (i.
   </tr>
 </table>
 
+<p align="center"><caption>Input variables and their corresponding sources</caption></p>
+
 </br>
 
 
@@ -191,8 +193,7 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 </br>
 
-
-<p align="center"><caption>Variables used for modelling and their corresponding influence in the score model</caption></p>
+<p align="center"><caption>Variables used and their corresponding influence in the scoring model</caption></p>
 
 ### The Web App
 <p align="justify">
