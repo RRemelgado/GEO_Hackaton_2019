@@ -1,4 +1,4 @@
-## GEO Hackaton 2019 Challenge 6: Detecting Ground Water Point Bore Wells
+## GEO Hackathon 2019 Challenge 6: Detecting Ground Water Point Bore Wells
 
 <img src="https://www.earthobservations.org/documents/geo16/hackathon_banner_m.jpg">
 
@@ -207,7 +207,9 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 <p align="center"><img width=600 src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_1.png"></p>
 
-<p align="center"><caption>Webpage interface</caption></p>
+<p align="center"><caption>Webpage interface</caption>
+Video: https://www.youtube.com/watch?v=F0Gr4_sou7k</p>
+
 
 </br>
 
@@ -241,7 +243,7 @@ By adding another ground water point to the map the user can provide detailed in
 #### Components
 
 <p align="justify">
-The portal is Javascript full-stack web application.<br>
+The portal is Javascript full-stack web application.
 Backend components:
 <ul>
 <li><a href="https://nodejs.org/en">nodejs</a></li>
