@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+
+  <!-- Filepond stylesheet -->
+    <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+    <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet">
+
+</head>
+<body>
+   
+ 
+ <!--  SINGLE FILE -->
+<!-- <form action="/uploadfile" enctype="multipart/form-data" method="POST"> 
+   <input type="file" name="filepond" />
+   
+   <input type="submit" value="Upload a file"/>
+</form> -->
+ 
+ 
+<!-- MULTIPLE FILES -->
+ 
+<form action="/uploadmultiple" enctype="multipart/form-data" method="POST">
+  <!-- <input type="file" name="myFiles" multiple> -->
+  <input type="file" class="filepond" name="filepond" accept="image/png, image/jpeg, image/gif" />
+  <input type="submit" value="Upload your files"/>
+</form>
+ 
+  <!--   PHOTO-->
+ 
+<!-- <form action="/upload/photo" enctype="multipart/form-data" method="POST"> 
+  <input type="file" name="myImage" accept="image/*" />
+  <input type="submit" value="Upload Photo"/>
+</form>
+  -->
+ 
+ 
+</body>
+</html>
+
+
+<!-- Load FilePond library -->
+    <script src="https://unpkg.com/filepond-plugin-file-validate-size/dist/filepond-plugin-file-validate-size.js"></script>
+    <script src="https://unpkg.com/filepond-plugin-image-exif-orientation/dist/filepond-plugin-image-exif-orientation.js"></script>
+    <script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
+    <script src="https://unpkg.com/filepond-plugin-file-encode/dist/filepond-plugin-file-encode.js"></script>
+    <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+
+
+ <script>
+ 	
+ 	/*
+We want to preview images, so we need to register the Image Preview plugin
+*/
+//  FilePond.registerPlugin(
+  
+//   // encodes the file as base64 data
+//   FilePondPluginFileEncode,
+  
+//   // validates the size of the file
+//   FilePondPluginFileValidateSize,
+  
+//   // corrects mobile image orientation
+//   FilePondPluginImageExifOrientation,
+  
+//   // previews dropped images
+//   FilePondPluginImagePreview
+// );
+
+// Select the file input and use create() to turn it into a pond
+FilePond.create(
+  document.querySelector('input.filepond')
+);
+
+// const inputElement = document.querySelector('input[type="file"]');
+
+// const filepondTest = FilePond.create(
+//   inputElement,
+//   {
+//     allowImagePreview: true,
+//     labelIdle: 'Drag & Drop your fire spot photos or <span class="filepond--label-action"> Browse </span>'
+//   }
+// );
+
+
+ </script>
