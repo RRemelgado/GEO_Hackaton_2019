@@ -39,7 +39,7 @@ In this exercie, we integrated different products on biophysical conditons (i.e.
   </tr>
   <tr>
     <td width="300" rowspan=2>SoilGrids</td>
-    <td width="300" rowspan=2>ISRIC</td>
+    <td width="300" rowspan=2>MODIS</td>
     <td width="300">Soil Depth</td>
     <td width="300" rowspan=2><a href="https://www.isric.org/explore/soilgrids">Webportal</a></td>
   </tr>
@@ -48,15 +48,45 @@ In this exercie, we integrated different products on biophysical conditons (i.e.
    </tr>
     <tr>
     <td width="300" rowspan=2>Global Surface Water</td>
-    <td width="300" rowspan=2>JRC</td>
+    <td width="300" rowspan=2>Landsat</td>
     <td width="300">Permanent Water</td>
     <td width="300" rowspan=2><a href="https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_1_GlobalSurfaceWater">GEE API</a></td>
   </tr>
   <tr>
     <td width="300">Seasonal water</td>
-   </tr>
-
-  
+  </tr>
+    <tr>
+    <td width="300">GHS POP</td>
+    <td width="300">Landsat</td>
+    <td width="300">Population density</td>
+    <td width="300"><a href="https://ghsl.jrc.ec.europa.eu/ghs_pop.php">Webportal</a></td>
+  </tr>
+    <tr>
+    <td width="300">Travel Time</td>
+    <td width="300">Landsat</td>
+    <td width="300">Distance to cities > 50K Hab.</td>
+    <td width="300"><a href="https://ec.europa.eu/jrc/en/news/how-far-nearest-city-global-map-travel-time-cities-published">Webportal</a></td>
+  </tr>
+  <tr>
+    <td width="300">Surface Reflectances</td>
+    <td width="300">Landsat</td>
+    <td width="300">NDVI (max., median composite)</td>
+    <td width="300"><a href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR">GEE API</a></td>
+  </tr>
+  <tr>
+    <td width="300">Precipitation</td>
+    <td width="300" rowspan=3>TerraClimate</td>
+    <td width="300" rowspan=3>Groundwater recharge</td>
+    <td width="300" rowspan=3><a href="http://www.climatologylab.org/terraclimate.html">Webportal</a></td>
+  </tr>
+  <tr><td width="300">Evapotranspiration</td></tr>
+  <tr><td width="300">Surface runoff</td></tr>
+    <tr>
+    <td width="300">Global River Width</td>
+    <td width="300" rowspan=3>TerraClimate</td>
+    <td width="300" rowspan=3>Groundwater recharge</td>
+    <td width="300" rowspan=3><a href="http://www.climatologylab.org/terraclimate.html">Webportal</a></td>
+  </tr>
 </table>
 
 </br>
@@ -111,7 +141,7 @@ The final layer was then queried with well samples collected with Open Street Ma
     <td align="center">min</td>
   </tr>
   <tr>
-    <td align="center">Distance to cities</td>
+    <td align="center">istance cities > 50K Hab.</td>
     <td align="center">Days</td>
     <td align="center">0.5</td>
     <td align="center">max</td>
@@ -129,7 +159,7 @@ The final layer was then queried with well samples collected with Open Street Ma
     <td align="center">min</td>
   </tr>
   <tr>
-    <td align="center">Landsat NDVI</td>
+    <td align="center">NDVI</td>
     <td align="center">Unitless</td>
     <td align="center">0.2</td>
     <td align="center">max</td>
