@@ -205,7 +205,8 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 </br>
 
-<p align="justify">
+<table>
+<th width="50%" align="justify">
 We developed a "Ground water point portal", a full-working mobile-friendly web application to inform and detect potentially locations to install ground water bore wells in Thailand.
 A heatmap gives the user an insight about potential locations. The user can search and filter for the potential points. Each location has information about the
 <ul>
@@ -217,7 +218,9 @@ A heatmap gives the user an insight about potential locations. The user can sear
 	<li>Max Precipation</li>
 </ul>
 By adding another ground water point to the map the user can provide detailed information about the ground water probability incl. photos of the location and edit the geographical location.
-</p>
+</th>
+<th><p align="center"><img src="https://github.com/RRemelgado/GEO_Hackaton_2019/blob/master/figures/app-screenshot_2.jpg"></p></th>
+</table>
 
 </br>
 
