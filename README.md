@@ -4,7 +4,7 @@
 
 ### Description
 <p align="justify">
-Welcome to our gitLab project! It describes the contribution of the <a href="https://www.idiv.de/en">German Centre for Integrative Biodiversity Research (iDiv)</a> to the <a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about">GEO Week 2019 Hackaton</a> where we spent two (very intensive) days developing a web application to inform on potentially locations to install bores in Thailand. Given the large spatial extent of our study region, we did not upload the remote sensing variables used in this exercise. However, we uploaded our folder structure along with our outputs and the underlying code.
+Welcome to our gitLab project! It describes the contribution of the <a href="https://www.idiv.de/en">German Centre for Integrative Biodiversity Research (iDiv)</a> to the <a href="https://www.earthobservations.org/geoweek19.php?t=hackathon_about">GEO Week 2019 Hackathon</a> where we spent two (very intensive) days developing a web application to inform on potentially locations to install bores in Thailand. Given the large spatial extent of our study region, we did not upload the remote sensing variables used in this exercise. However, we uploaded our folder structure along with our outputs and the underlying code.
 </p>
 
 </br>
@@ -243,7 +243,7 @@ By adding another ground water point to the map the user can provide detailed in
 #### Components
 
 <p align="justify">
-The portal is Javascript full-stack web application.
+The portal is Javascript full-stack web application.<br>
 Backend components:
 <ul>
 <li><a href="https://nodejs.org/en">nodejs</a></li>
@@ -259,10 +259,10 @@ Frontend components:
 </ul>
 </p>
 
-#### Get started
-The `package.json` includes all dependencies to install.
+#### Installation
+The `package.json` includes all dependencies to install. Make sure you have MongoDB running.
 
-To run the web app just use `npm start`. Open your web browser and navigate to port 3000 via `http://localhost:3000`.
+To run the web app just use `npm start`. Open your web browser and navigate to port 3000 on `http://localhost:3000`.
 
 That´s it! You are now ready to use the Ground water point portal!
 
@@ -270,7 +270,7 @@ That´s it! You are now ready to use the Ground water point portal!
 
 ### Is it Scalable?
 <p align="justify">
-Short answer: Yes! We wrote the algorithm behind the final product in Pyhton and made it dependent on purely open-source modules. Moreover, we designed the underlying scripts as modular, command line applications that are compatible highly concurrent (or parallelized) computation system. When dealing with larger areas, we can easily integrate our algorithm with a spatial tilling system to process large volumes of data. Moreover, while the scoring model integrates several variables, the script behind it is independent of this fact.  We can easily customize the set of input layers by editing a simple configuration file that provides information on the location of these variables as well as their weight in the final model. The modular nature of our algorithm means we can easily replace its different components, allowing us to refine our product in the future without the need for time-consuming revisions of one-time scripts.
+Short answer: Yes! We wrote the algorithm behind the final product in Python and made it dependent on purely open-source modules. Moreover, we designed the underlying scripts as modular, command line applications that are compatible highly concurrent (or parallelized) computation system. When dealing with larger areas, we can easily integrate our algorithm with a spatial tilling system to process large volumes of data. Moreover, while the scoring model integrates several variables, the script behind it is independent of this fact.  We can easily customize the set of input layers by editing a simple configuration file that provides information on the location of these variables as well as their weight in the final model. The modular nature of our algorithm means we can easily replace its different components, allowing us to refine our product in the future without the need for time-consuming revisions of one-time scripts.
 </p>
 
 </br>
