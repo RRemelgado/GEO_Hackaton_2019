@@ -244,7 +244,7 @@ Adding another ground water point to the map by clicking "Detect a point" the us
 #### Components
 
 <p align="justify">
-The portal is Javascript full-stack web application.<br>
+The portal is a Javascript full-stack web application.</p>
 Backend components:
 <ul>
 <li><a href="https://nodejs.org/en">nodejs</a></li>
@@ -258,10 +258,10 @@ Frontend components:
 <li><a href="https://jquery.com/">jQuery</a></li>
 <li><a href="http://listjs.com/">list.js</a></li>
 </ul>
-</p>
+
 
 #### Installation
-The `package.json` includes all dependencies to install. Make sure you have MongoDB running.
+The `package.json` includes all dependencies to install. Make sure you have MongoDB running on your computer.
 
 To run the web app just use `npm start`. Open your web browser and navigate to port 3000 on `http://localhost:3000`.
 
