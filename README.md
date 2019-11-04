@@ -12,7 +12,7 @@ Welcome to our gitLab project! It describes the contribution of the <a href="htt
 ### Presentation incl. Demo of web app
 
 <p align="justify">
-<a href="https://www.youtube.com/watch?v=F0Gr4_sou7k">https://www.youtube.com/watch?v=F0Gr4_sou7k</a>
+<a href="https://www.youtube.com/watch?v=ydSo19Qv9-0">https://www.youtube.com/watch?v=ydSo19Qv9-0</a>
 </p>
 
 </br>
