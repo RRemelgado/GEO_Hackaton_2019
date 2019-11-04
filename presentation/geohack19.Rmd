@@ -94,3 +94,7 @@ We welcome citizen contributions to improve our product
 Check out our gitHub page
 
 <a href="https://github.com/RRemelgado/GEO_Hackaton_2019">https://github.com/RRemelgado/GEO_Hackaton_2019</a>
+
+## A small demonstration
+
+<a href="http://localhost:3000">the app</a>
