@@ -9,6 +9,14 @@ Welcome to our gitLab project! It describes the contribution of the <a href="htt
 
 </br>
 
+### Presentation incl. Demo of web app
+
+<p align="justify">
+<a href="https://www.youtube.com/watch?v=F0Gr4_sou7k">https://www.youtube.com/watch?v=F0Gr4_sou7k</a>
+</p>
+
+</br>
+
 ### Background
 <p align="justify">
 In regions such as Thailand and its neighboring countries, where food production is contingent on intensive, water dependent agriculture, the drainage of groundwater for irrigation contributes to the lowering of water tables, compromising its long-term use. This contributes to negative side effects, such as salinity, stream depletion and land subsidence, which hinder agricultural productivity putting food security - and environmental sustainability - at grave risk. In this context, the detection of groundwater storage - which we can explore though bore holes - is an essential step to optimize water utilization. This knowledge can lead farmers towards precision agriculture and avoid a waste of resources, as well as its depletion within threaten aquifers. The use of field-level weather stations can further support spatial data on groundwater. Such stations offer information on biophysical parameters such as temperature, humidity, soil moisture and particular matter, and can help to refine the mapping and monitoring of groundwater. This effectively empowers the farmers, turning them into active contributors of environmental monitoring.
@@ -216,9 +224,8 @@ The final layer was then queried with well samples collected with Open Street Ma
 
 <p align="justify">
 We developed a "Ground water point portal", a full-working mobile-friendly web application to inform and detect potentially locations to install ground water bore wells in SE Asia.</p>
+
 <p align="justify">
-Demo of the data portal: https://www.youtube.com/watch?v=F0Gr4_sou7k
-</p>
 A heatmap gives the user an insight about potential ground water locations. The user can search and filter for potential ground water points. Each ground water point provides information about the
 <ul>
 	<li>Ground water probability</li>
