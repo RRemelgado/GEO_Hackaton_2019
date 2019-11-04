@@ -33,7 +33,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <div>
   <h3>
-    <span class="highlight">GEO Hackathon 2019<br>Challenge 6</span>
+    <span class="white">GEO Hackathon 2019<br>Challenge 6</span>
   </h3>
 </div>
 
