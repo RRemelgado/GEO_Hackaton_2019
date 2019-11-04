@@ -47,9 +47,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 </section>
 
+## Team iDiv
+<img src="img/iDiv_groupphoto_small.jpg" height="400" style="background:none; border:none; box-shadow:none;"/>
+
 ## Background
 
-Food production in South East asia is contingent on intensive, water dependen agriculture (rice)
+Food production in South-East Asia is contingent on intensive, water dependen agriculture (rice)
 
 <div class="fragment">
 Irrigation, which can be fed by groundwater is required
@@ -59,14 +62,35 @@ Irrigation, which can be fed by groundwater is required
 Precission farming can help achieve farming goals
 </div>
 
-## Goal
+## Our solution
 
-web application to inform on potentially locations to install bore holes in Thailand
+web/mobile application to inform on potentially locations to install bore wells in South-East Asia
 
-<div class="fragment">
-<img src="img/app-screenshot_3.jpg" height="400" style="background:none; border:none; box-shadow:none;"/>
+<div>
+<img src="img/app-screenshot_1.png" height="400" style="background:none; border:none; box-shadow:none;"/>
+<img src="img/screen-mobile_1.png" height="400" style="background:none; border:none; box-shadow:none;"/>
 </div>
 
+## Workflow
 
+<img src="img/workflow.png" height="400" style="background:none; border:none; box-shadow:none;"/>
 
+## Data resources
 
+Open-access data modelled with open-source code
+
+<img src="img/dataSources.PNG" height="400" style="background:none; border:none; box-shadow:none;"/>
+
+## Citizen Science Friendly
+
+We welcome citizen contributions to improve our product
+<div>
+<img src="img/screen-mobile_3.png" height="400" style="background:none; border:none; box-shadow:none;"/>
+<img src="img/screen-mobile_5.png" height="400" style="background:none; border:none; box-shadow:none;"/>
+</div>
+
+## More information
+
+Check out our gitHub page
+
+<a href="https://github.com/RRemelgado/GEO_Hackaton_2019">https://github.com/RRemelgado/GEO_Hackaton_2019</a>
